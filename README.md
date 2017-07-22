@@ -1,7 +1,7 @@
 # yii2-individual-attributes-behavior
 A class that you can extend when need to set individual value for each event's attribute.
 
-Uma classe que você pode extender quando precisar setar valores individuais para cada atributo relacionado ao evento.
+Uma classe que você pode estender quando precisar setar valores individuais para cada atributo relacionado ao evento.
 
 
 
