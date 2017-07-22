@@ -1,11 +1,14 @@
 # yii2-individual-attributes-behavior
 A class that you can extend when need to set individual value for each event's attribute.
+
 Uma classe que você pode extender quando precisar setar valores individuais para cada atributo relacionado ao evento.
 
 I just overwrited one function of Yii's AttributeBehavior, and it worked nice:
+
 Eu apenas sobrescrevi uma função da classe AttributeBehavior do Yii, e funcionou perfeitamente:
 
 AttributeBehavior's funcion:
+
 Função do AttributeBehavior sobrescrita:
 
 ```php
@@ -33,6 +36,7 @@ Função do AttributeBehavior sobrescrita:
 
 
 IndividualAttributesBehavior's function that overwrited the one above:
+
 Função do IndividualAttributesBehavior que sobrescreveu a de cima:
 
 ```php
@@ -56,6 +60,7 @@ Função do IndividualAttributesBehavior que sobrescreveu a de cima:
 
 
 So I created the getIndividualValue function on my customized date formatter behavior that extends from IndividualAttributesBehavior:
+
 Então eu criei a função getIndividualValue no meu manipulador customizado de datas, que extende de IndividualAttributesBehavior:
 
 ```php
