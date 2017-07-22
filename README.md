@@ -64,7 +64,7 @@ Função do IndividualAttributesBehavior que sobrescreveu a de cima:
 So I created the getIndividualValue function on my customized date formatter behavior that extends from IndividualAttributesBehavior:
 
 
-Então eu criei a função getIndividualValue no meu manipulador customizado de datas, que extende de IndividualAttributesBehavior:
+Então eu criei a função getIndividualValue no meu manipulador customizado de datas, que estende de IndividualAttributesBehavior:
 
 ```php
 <?php
