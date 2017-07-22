@@ -28,8 +28,8 @@ Função do AttributeBehavior sobrescrita:
                 }
             }
         }
-    }
-```php
+    }
+```
 
 
 IndividualAttributesBehavior's function that overwrited the one above:
@@ -52,7 +52,7 @@ Função do IndividualAttributesBehavior que sobrescreveu a de cima:
             }
         }
     }
-```php
+```
 
 
 So I created the getIndividualValue function on my customized date formatter behavior that extends from IndividualAttributesBehavior:
@@ -99,7 +99,7 @@ class DatasEmPtBrBehavior extends IndividualAttributesBehavior {
     }
 
 }
-```php
+```
 
 
 So, on my models' behavior funcions:
@@ -123,4 +123,4 @@ So, on my models' behavior funcions:
             ],
         ];
     }
-```php
+```
