@@ -109,7 +109,7 @@ class DatasEmPtBrBehavior extends IndividualAttributesBehavior {
 }
 ```
 
-So, on my models' behavior funcions:
+So, on my models' behavior functions:
 
 Ento, no behavior do meu model:
 
